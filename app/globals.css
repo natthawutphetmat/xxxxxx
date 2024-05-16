@@ -1,0 +1,69 @@
+#box {
+  margin: auto;
+  width: 700px;
+  height: 900px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+}
+form{
+  max-width: 400px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  margin: auto;
+  margin-bottom: 50px;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.linecut {
+  background: url('/img/linecut.gif');
+  height: 3px;
+}
+
+.a {
+  display: flex;
+
+}
+.b {
+  height: 300px;
+
+  width: 50%;
+  text-align: center;
+  align-items: center;
+
+}
+.c {
+  width: 50%;
+
+}
+
+.main {
+  max-width: 400px;
+}
+#xxx{
+  width: 100%;
+  overflow: hidden;
+}
+
+@media screen and (max-width:480px) {
+  #box {
+    width: 100%;
+    height: 100%;
+
+  }
+  .a {
+    display: inline;
+    width: 100%;
+  
+  } 
+  .b {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+  }
+  .c {
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 100px;
+  }
+
+  
+}
